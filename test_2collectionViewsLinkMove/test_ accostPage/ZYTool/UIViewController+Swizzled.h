@@ -21,7 +21,7 @@
 /**
  It will swizz the methods:
  viewDidLoad
- @return void
+ 
  */
 + (void)swizzIt;
 
@@ -29,13 +29,13 @@
  It will swizz the methods:
  viewDidLoad
  and prepend "tag" to each line of log
- @return void
+ 
  */
 + (void)swizzItWithTag:(NSString *)tag;
 
 /**
  It will undo what was done with the swizzIt
- @return void
+ 
  */
 + (void)undoSwizz;
 

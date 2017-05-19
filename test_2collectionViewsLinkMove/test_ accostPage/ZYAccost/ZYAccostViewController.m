@@ -20,6 +20,9 @@
 @property (nonatomic, strong) ZYAccostImageCollection * imgCollectView;
 @property (nonatomic, strong) ZYAccostInfoCollection * infoCollectionView;
 
+@property (nonatomic, strong) UIButton * deleteBtn;
+@property (nonatomic, strong) UIButton * replyBtn;
+
 @end
 
 @implementation ZYAccostViewController
@@ -43,7 +46,7 @@
     self.imgCollectView.delegate = self;
     
     
-    // create
+    // create info
     
     self.infoCollectionView = [[ZYAccostInfoCollection alloc]initWithFrame:CGRectMake(0, 168, ScreenF.size.width, 450)];
     self.infoCollectionView.scroll_delegate = self;  //联动delegate
@@ -54,10 +57,20 @@
         [mArr1 addObject:[UIImage imageNamed:@"demo_avatar_jobs.png"]];
     }
     self.infoCollectionView.infosArray = mArr1;
+    
+    // create bottom btn
+    [self.deleteBtn addTarget:self action:@selector(deleteBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    [self.replyBtn addTarget:self action:@selector(replyBtnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
 }
 
-
-
+#pragma mark - touch events
+-(void)deleteBtnClick:(UIButton *)sender{
+    
+}
+-(void)replyBtnClick:(UIButton *)sender{
+    
+}
 #pragma mark -ZYAccostInfoCollection_ScrollDelegate
 
 -(void)infoCellScroll_scale:(CGFloat)off_scale{
@@ -85,6 +98,32 @@
         [self.view addSubview:_imgCollectView];
     }
     return _imgCollectView;
+}
+
+-(UIButton *)deleteBtn{
+    if(_deleteBtn == nil){
+        _deleteBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, ZHFScreenHeight-GTFixHeightFlaot(49), ZHFScreenWidth/2, GTFixHeightFlaot(49))];
+        _deleteBtn.backgroundColor = [UIColor whiteColor];
+        [_deleteBtn setImage:[UIImage imageNamed:@"btn_accost_delete"] forState:UIControlStateNormal];
+        [_deleteBtn setTitle:@"删除" forState:UIControlStateNormal];
+        [_deleteBtn setTitleColor:HexRGB(0x9B9B9B) forState:UIControlStateNormal];
+        [self.view addSubview:_deleteBtn];
+        
+    }
+    return _deleteBtn;
+}
+
+-(UIButton *)replyBtn{
+    if(_replyBtn == nil){
+        _replyBtn = [[UIButton alloc]initWithFrame:CGRectMake(ZHFScreenWidth/2, ZHFScreenHeight-GTFixHeightFlaot(49), ZHFScreenWidth/2, GTFixHeightFlaot(49))];
+        _replyBtn.backgroundColor = [UIColor whiteColor];
+        [_replyBtn setImage:[UIImage imageNamed:@"btn_accost_reply"] forState:UIControlStateNormal];
+        [_replyBtn setTitle:@"回复" forState:UIControlStateNormal];
+        [_replyBtn setTitleColor:HexRGB(0x9B9B9B) forState:UIControlStateNormal];
+        [self.view addSubview:_replyBtn];
+
+    }
+    return _replyBtn;
 }
 
 - (void)didReceiveMemoryWarning {

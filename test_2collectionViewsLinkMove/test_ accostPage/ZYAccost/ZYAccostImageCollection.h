@@ -19,7 +19,7 @@
 /*
  *  告诉别人 联动中 我(A)是主动?(B是被动)
  */
--(void)imageIsActive:(BOOL)imageActive;
+//-(void)imageIsActive:(BOOL)imageActive;
 /*
  *  告诉别人 我彻底停下来了    ----> add: 我是手动滑动的开始者,走end方法!
  */

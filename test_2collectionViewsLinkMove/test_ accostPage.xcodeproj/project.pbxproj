@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7114C9CA1EBB424D00BE49F3 /* btn_accost_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 7114C9C61EBB424D00BE49F3 /* btn_accost_delete.png */; };
+		7114C9CB1EBB424D00BE49F3 /* btn_accost_delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7114C9C71EBB424D00BE49F3 /* btn_accost_delete@3x.png */; };
+		7114C9CC1EBB424D00BE49F3 /* btn_accost_reply.png in Resources */ = {isa = PBXBuildFile; fileRef = 7114C9C81EBB424D00BE49F3 /* btn_accost_reply.png */; };
+		7114C9CD1EBB424D00BE49F3 /* btn_accost_reply@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7114C9C91EBB424D00BE49F3 /* btn_accost_reply@3x.png */; };
 		7126A2111E8D405D00B3EE20 /* Combined_Shape.png in Resources */ = {isa = PBXBuildFile; fileRef = 7126A20F1E8D405D00B3EE20 /* Combined_Shape.png */; };
 		7126A2121E8D405D00B3EE20 /* Combined_Shape@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7126A2101E8D405D00B3EE20 /* Combined_Shape@3x.png */; };
 		7126A2151E8D410300B3EE20 /* ZYAccostInfoCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7126A2141E8D410300B3EE20 /* ZYAccostInfoCollection.m */; };
@@ -42,6 +46,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7114C9C61EBB424D00BE49F3 /* btn_accost_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_accost_delete.png; sourceTree = "<group>"; };
+		7114C9C71EBB424D00BE49F3 /* btn_accost_delete@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_accost_delete@3x.png"; sourceTree = "<group>"; };
+		7114C9C81EBB424D00BE49F3 /* btn_accost_reply.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_accost_reply.png; sourceTree = "<group>"; };
+		7114C9C91EBB424D00BE49F3 /* btn_accost_reply@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn_accost_reply@3x.png"; sourceTree = "<group>"; };
 		7126A20F1E8D405D00B3EE20 /* Combined_Shape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Combined_Shape.png; sourceTree = "<group>"; };
 		7126A2101E8D405D00B3EE20 /* Combined_Shape@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Combined_Shape@3x.png"; sourceTree = "<group>"; };
 		7126A2131E8D410300B3EE20 /* ZYAccostInfoCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYAccostInfoCollection.h; sourceTree = "<group>"; };
@@ -211,6 +219,10 @@
 				7126A23A1E8E873B00B3EE20 /* ZYChatMsgInfoModel.m */,
 				7126A2161E8DC16200B3EE20 /* UIImage+stretch.h */,
 				7126A2171E8DC16200B3EE20 /* UIImage+stretch.m */,
+				7114C9C61EBB424D00BE49F3 /* btn_accost_delete.png */,
+				7114C9C71EBB424D00BE49F3 /* btn_accost_delete@3x.png */,
+				7114C9C81EBB424D00BE49F3 /* btn_accost_reply.png */,
+				7114C9C91EBB424D00BE49F3 /* btn_accost_reply@3x.png */,
 				7126A20F1E8D405D00B3EE20 /* Combined_Shape.png */,
 				7126A2101E8D405D00B3EE20 /* Combined_Shape@3x.png */,
 			);
@@ -276,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7114C9CD1EBB424D00BE49F3 /* btn_accost_reply@3x.png in Resources */,
 				7126A27F1E93F2EA00B3EE20 /* demo_avatar_jobs@2x.png in Resources */,
 				7126A2121E8D405D00B3EE20 /* Combined_Shape@3x.png in Resources */,
 				7126A27E1E93F2EA00B3EE20 /* demo_avatar_jobs.png in Resources */,
@@ -283,7 +296,10 @@
 				7126A2911E94044300B3EE20 /* downCollectionScroll.gif in Resources */,
 				716B15EF1E8CAD7900CEC68D /* LaunchScreen.storyboard in Resources */,
 				7126A2111E8D405D00B3EE20 /* Combined_Shape.png in Resources */,
+				7114C9CA1EBB424D00BE49F3 /* btn_accost_delete.png in Resources */,
+				7114C9CB1EBB424D00BE49F3 /* btn_accost_delete@3x.png in Resources */,
 				7126A2861E93F34300B3EE20 /* demo_avatar_cook@3x.png in Resources */,
+				7114C9CC1EBB424D00BE49F3 /* btn_accost_reply.png in Resources */,
 				7126A2841E93F34300B3EE20 /* demo_avatar_cook.png in Resources */,
 				7126A2801E93F2EA00B3EE20 /* demo_avatar_jobs@3x.png in Resources */,
 				7126A2901E94044300B3EE20 /* collectionViewContainsCollectionView_TableView.gif in Resources */,
