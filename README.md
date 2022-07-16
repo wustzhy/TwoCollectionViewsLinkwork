@@ -1,5 +1,6 @@
 # TwoCollectionViewsLinkwork
-上下两collectionView联动,cell居中丝滑停靠
+上下两collectionView联动,cell居中丝滑停靠。
+> 高仿「遇见」App 高难度页面。
 
 ## 效果图
 <img src="https://raw.githubusercontent.com/wustzhy/TwoCollectionViewsLinkwork/178ee2e6d142364e718d407fd3e9f21b2de65b29/test_2collectionViewsLinkMove/test_%20accostPage/style.png" width="300px">
