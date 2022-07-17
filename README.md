@@ -27,5 +27,5 @@
 
 
 ### 3. 下collection cell,内嵌collectionView & tableView
-> The scene where the collectionView below is nested within another collectionView & tableView.
+> Such a scene, the collectionView below nested with another collectionView & tableView.
 <img src="https://raw.githubusercontent.com/wustzhy/TwoCollectionViewsLinkwork/0dd1c3cf270153d5ddad65261029a29900a9efa9/test_2collectionViewsLinkMove/test_%20accostPage/collectionViewContainsCollectionView_TableView.gif" width="300px">
